@@ -22,3 +22,16 @@ func TestAddTwoNumbers(t *testing.T) {
 		t.Fail()
 	}
 }
+
+func TestLengthOfLongestSubstring(t *testing.T) {
+	if lengthOfLongestSubstring("abcabcbb") != 3 ||
+		lengthOfLongestSubstring("bbbbb") != 1 ||
+		lengthOfLongestSubstring("pwwkew") != 3 ||
+		lengthOfLongestSubstring("") != 0 ||
+		lengthOfLongestSubstring(" ") != 1 ||
+		lengthOfLongestSubstring("au") != 2 ||
+		lengthOfLongestSubstring("abba") != 2 ||
+		lengthOfLongestSubstring("aab") != 2 {
+		t.Fail()
+	}
+}
