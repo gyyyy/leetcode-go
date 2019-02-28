@@ -35,3 +35,13 @@ func TestLengthOfLongestSubstring(t *testing.T) {
 		t.Fail()
 	}
 }
+
+func TestFindMedianSortedArrays(t *testing.T) {
+	if findMedianSortedArrays([]int{1, 3}, []int{2, 4}) != 2.5 ||
+		findMedianSortedArrays([]int{1, 3}, []int{2, 12, 13, 22, 31}) != 12 ||
+		findMedianSortedArrays([]int{}, []int{}) != 0 ||
+		findMedianSortedArrays([]int{1}, []int{}) != 1 ||
+		findMedianSortedArrays([]int{}, []int{2}) != 2 {
+		t.Fail()
+	}
+}
