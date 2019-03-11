@@ -1,4 +1,4 @@
-package golang
+package leetcode
 
 // 1. Two Sum
 //

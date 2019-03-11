@@ -1,4 +1,4 @@
-package golang
+package leetcode
 
 // 4. Median of Two Sorted Arrays
 //
